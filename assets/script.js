@@ -1,3 +1,16 @@
+var countdown =document.querySelector('#countdown');
+var timer =document.querySelector('#timer');
+var main =document.querySelector('main');
+var h1 =document.querySelector('h1');
+var p =document.querySelector('p');
+var start =document.querySelector('#start');
+var choices =document.querySelector('#choices');
+var indicator =document.querySelector('#indicator');
+
+
+
+
+
 var quizQuestions = [
     {
         questions: "Arrays in Javascript can be used to store _______________?",
@@ -23,5 +36,43 @@ var quizQuestions = [
         questions: "The condition in an if/else statement is enclosed with _____________.",
         choices: ["1. <parenthesis>", "2. <quotes>", "3. <square brackets>", "4. <curly brackets>"],
         answer: 0,
+    },
+];
+ 
+function init(){
+    countDown= 50;
+    countdownTrigger();
+}
+
+function countdownTrigger(){
+    if(countDown >0){
+        countDown--;
+        document.getElementById('start').innerHTML= countDown;
+        if (countDown>0){
+            counter = setTimeout('countdownTrigger()', 1000);
+        }
     }
-]
+}
+init();
+
+function renderQuestions (questionArr){
+    questionArr= questionArr || 0;
+   
+}
+
+// function init(){
+//     countDown=30;
+//     score=0;
+// };
+//  function startQuiz(){
+//     textElement.remove();
+//     startButton.reomove();
+//     timerInterval =setInterval(function(){
+//         setSeconds==;
+//         sElement.textContent=countDown;
+//         if(countDown===0){
+//             clearTimer(timerInterval);
+//         }
+//     }, 1000);
+//         }
+ 
