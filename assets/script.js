@@ -18,7 +18,7 @@ var quizQuestions = [
         questions: "A very useful tool used during developement and debugging for printing content to the debugger is:",
         choices: ["1. <for loops>", "2. <JavaScript>", "3. <console.log>", "4. <terminal/bash>"],
         answer: 2,
-    }
+    },
     {
         questions: "The condition in an if/else statement is enclosed with _____________.",
         choices: ["1. <parenthesis>", "2. <quotes>", "3. <square brackets>", "4. <curly brackets>"],
