@@ -1,7 +1,8 @@
 # js-fundamentals-quiz-04
 ## Description
+A timed coding quiz with multiple-choice questions
 
-
+![screenshot](./assets/images/Screen%20Shot%202022-11-03%20at%2011.17.56%20PM.png)
 
 
 ## Usage
