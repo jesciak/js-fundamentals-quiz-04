@@ -4,6 +4,10 @@ A timed coding quiz with multiple-choice questions
 
 ![screenshot](./assets/images/Screen%20Shot%202022-11-03%20at%2011.17.56%20PM.png)
 
+![screenshot](./assets/images/Screen%20Shot%202022-11-03%20at%2011.53.28%20PM.png)
+
+![screenshot](./assets/images/Screen%20Shot%202022-11-03%20at%2011.53.13%20PM.png)
+
 
 ## Usage
 USER STORY:
